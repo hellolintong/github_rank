@@ -1,0 +1,9 @@
+<uwsgi>
+    <pythonpath>/home/lintong/Flask/github</pythonpath>
+    <module>server</module>
+    <callable>app</callable>
+    <socket>0.0.0.0:5000</socket>
+    <master/>
+    <process>4</process>
+    <memory-report/>
+</uwsgi>

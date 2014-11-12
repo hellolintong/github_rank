@@ -1,0 +1,342 @@
+*** Starting uWSGI 2.0.8 (64bit) on [Sat Nov  8 11:14:33 2014] ***
+compiled with version: 4.6.3 on 08 November 2014 10:22:19
+os: Linux-3.2.0-29-generic #46-Ubuntu SMP Fri Jul 27 17:03:23 UTC 2012
+nodename: AY140323100208229e7dZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lintong/Flask/github
+detected binary path: /usr/sbin/uwsgi
+your processes number limit is 3783
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:5000 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1419500
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 363840 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+added /home/lintong/Flask/github/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1419500 pid: 32597 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32597)
+spawned uWSGI worker 1 (pid: 32603, cores: 1)
+spawned uWSGI worker 2 (pid: 32604, cores: 1)
+spawned uWSGI worker 3 (pid: 32605, cores: 1)
+spawned uWSGI worker 4 (pid: 32606, cores: 1)
+*** Starting uWSGI 2.0.8 (64bit) on [Sat Nov  8 11:14:50 2014] ***
+compiled with version: 4.6.3 on 08 November 2014 10:22:19
+os: Linux-3.2.0-29-generic #46-Ubuntu SMP Fri Jul 27 17:03:23 UTC 2012
+nodename: AY140323100208229e7dZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lintong/Flask/github
+detected binary path: /usr/sbin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3783
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:5000).
+bind(): Address already in use [core/socket.c line 761]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Sat Nov  8 11:27:24 2014 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  8 11:27:24 2014 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  8 11:27:24 2014 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  8 11:27:24 2014 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.8 (64bit) on [Sat Nov  8 14:51:36 2014] ***
+compiled with version: 4.6.3 on 08 November 2014 11:43:50
+os: Linux-3.2.0-29-generic #46-Ubuntu SMP Fri Jul 27 17:03:23 UTC 2012
+nodename: AY140323100208229e7dZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lintong/Flask/github
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3783
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:5000 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a40360
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/lintong/Flask/github/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a40360 pid: 9661 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9661)
+spawned uWSGI worker 1 (pid: 9667, cores: 1)
+{address space usage: 105467904 bytes/100MB} {rss usage: 38821888 bytes/37MB} [pid: 9667|app: 0|req: 1/1] 123.138.79.10 () {40 vars in 733 bytes} [Sat Nov  8 14:52:06 2014] GET / => generated 285810 bytes in 1027 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 105467904 bytes/100MB} {rss usage: 38887424 bytes/37MB} [pid: 9667|app: 0|req: 2/2] 123.138.79.10 () {40 vars in 684 bytes} [Sat Nov  8 14:52:08 2014] GET /favicon.ico => generated 233 bytes in 104 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+{address space usage: 105787392 bytes/100MB} {rss usage: 39329792 bytes/37MB} [pid: 9667|app: 0|req: 3/3] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 14:52:13 2014] GET / => generated 286027 bytes in 742 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 105811968 bytes/100MB} {rss usage: 39370752 bytes/37MB} [pid: 9667|app: 0|req: 4/4] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 14:52:40 2014] GET / => generated 286714 bytes in 686 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106283008 bytes/101MB} {rss usage: 41041920 bytes/39MB} [pid: 9667|app: 0|req: 5/5] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 14:57:29 2014] GET / => generated 293086 bytes in 725 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106192896 bytes/101MB} {rss usage: 40185856 bytes/38MB} [pid: 9667|app: 0|req: 6/6] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 14:57:33 2014] GET / => generated 293086 bytes in 682 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106221568 bytes/101MB} {rss usage: 39661568 bytes/37MB} [pid: 9667|app: 0|req: 7/7] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 14:58:09 2014] GET / => generated 293549 bytes in 804 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106225664 bytes/101MB} {rss usage: 39800832 bytes/37MB} [pid: 9667|app: 0|req: 8/8] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 14:58:12 2014] GET / => generated 293549 bytes in 708 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106205184 bytes/101MB} {rss usage: 39800832 bytes/37MB} [pid: 9667|app: 0|req: 9/9] 219.245.66.158 () {38 vars in 848 bytes} [Sat Nov  8 14:58:38 2014] GET / => generated 293549 bytes in 687 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106205184 bytes/101MB} {rss usage: 39944192 bytes/38MB} [pid: 9667|app: 0|req: 10/10] 219.245.66.158 () {38 vars in 799 bytes} [Sat Nov  8 14:58:40 2014] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+{address space usage: 106205184 bytes/101MB} {rss usage: 39944192 bytes/38MB} [pid: 9667|app: 0|req: 11/11] 219.245.66.158 () {40 vars in 933 bytes} [Sat Nov  8 14:59:05 2014] GET /user/douglascrockford => generated 2693 bytes in 50 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 106307584 bytes/101MB} {rss usage: 39927808 bytes/38MB} [pid: 9667|app: 0|req: 12/12] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 15:02:36 2014] GET / => generated 296682 bytes in 700 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106598400 bytes/101MB} {rss usage: 40144896 bytes/38MB} [pid: 9667|app: 0|req: 13/13] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 15:06:26 2014] GET / => generated 299355 bytes in 710 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106659840 bytes/101MB} {rss usage: 40427520 bytes/38MB} [pid: 9667|app: 0|req: 14/14] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 15:09:05 2014] GET / => generated 301658 bytes in 714 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 106651648 bytes/101MB} {rss usage: 40210432 bytes/38MB} [pid: 9667|app: 0|req: 15/15] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 15:09:10 2014] GET / => generated 301658 bytes in 729 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 107069440 bytes/102MB} {rss usage: 40697856 bytes/38MB} [pid: 9667|app: 0|req: 16/16] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 15:20:38 2014] GET / => generated 309755 bytes in 723 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 107364352 bytes/102MB} {rss usage: 40861696 bytes/38MB} [pid: 9667|app: 0|req: 17/17] 222.25.140.71 () {36 vars in 563 bytes} [Sat Nov  8 15:25:58 2014] GET / => generated 312279 bytes in 735 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 107364352 bytes/102MB} {rss usage: 41050112 bytes/39MB} [pid: 9667|app: 0|req: 18/18] 222.25.140.71 () {36 vars in 555 bytes} [Sat Nov  8 15:25:59 2014] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+{address space usage: 107364352 bytes/102MB} {rss usage: 41050112 bytes/39MB} [pid: 9667|app: 0|req: 19/19] 222.25.140.71 () {36 vars in 585 bytes} [Sat Nov  8 15:25:59 2014] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+{address space usage: 107364352 bytes/102MB} {rss usage: 41050112 bytes/39MB} [pid: 9667|app: 0|req: 20/20] 222.25.140.71 () {36 vars in 585 bytes} [Sat Nov  8 15:25:59 2014] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+{address space usage: 107372544 bytes/102MB} {rss usage: 41144320 bytes/39MB} [pid: 9667|app: 0|req: 21/21] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 15:26:07 2014] GET / => generated 312499 bytes in 753 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 107372544 bytes/102MB} {rss usage: 41185280 bytes/39MB} [pid: 9667|app: 0|req: 22/22] 222.25.140.71 () {38 vars in 624 bytes} [Sat Nov  8 15:26:10 2014] GET /user/nvie => generated 23261 bytes in 66 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+{address space usage: 107372544 bytes/102MB} {rss usage: 41185280 bytes/39MB} [pid: 9667|app: 0|req: 23/23] 222.25.140.71 () {38 vars in 628 bytes} [Sat Nov  8 15:26:49 2014] GET /user/ajcord => generated 2222 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 107372544 bytes/102MB} {rss usage: 41185280 bytes/39MB} [pid: 9667|app: 0|req: 24/24] 222.25.140.71 () {38 vars in 632 bytes} [Sat Nov  8 15:26:55 2014] GET /user/DewerZHT => generated 1161 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 107372544 bytes/102MB} {rss usage: 41185280 bytes/39MB} [pid: 9667|app: 0|req: 25/25] 222.25.140.71 () {38 vars in 638 bytes} [Sat Nov  8 15:27:01 2014] GET /user/jasondavies => generated 29354 bytes in 73 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+{address space usage: 107372544 bytes/102MB} {rss usage: 41185280 bytes/39MB} [pid: 9667|app: 0|req: 26/26] 222.25.140.71 () {38 vars in 622 bytes} [Sat Nov  8 15:27:07 2014] GET /user/c9s => generated 40309 bytes in 115 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+{address space usage: 107372544 bytes/102MB} {rss usage: 41185280 bytes/39MB} [pid: 9667|app: 0|req: 27/27] 222.25.140.71 () {38 vars in 640 bytes} [Sat Nov  8 15:27:11 2014] GET /user/sindresorhus => generated 42615 bytes in 111 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+{address space usage: 107397120 bytes/102MB} {rss usage: 41123840 bytes/39MB} [pid: 9667|app: 0|req: 28/28] 222.25.140.71 () {36 vars in 563 bytes} [Sat Nov  8 15:27:33 2014] GET / => generated 313619 bytes in 740 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 107405312 bytes/102MB} {rss usage: 41172992 bytes/39MB} [pid: 9667|app: 0|req: 29/29] 222.25.140.71 () {36 vars in 563 bytes} [Sat Nov  8 15:30:00 2014] GET / => generated 313619 bytes in 763 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 107405312 bytes/102MB} {rss usage: 41218048 bytes/39MB} [pid: 9667|app: 0|req: 30/30] 222.25.140.71 () {38 vars in 630 bytes} [Sat Nov  8 15:30:29 2014] GET /user/devymex => generated 2166 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 107458560 bytes/102MB} {rss usage: 41123840 bytes/39MB} [pid: 9667|app: 0|req: 31/31] 123.138.79.10 () {42 vars in 763 bytes} [Sat Nov  8 15:34:46 2014] GET / => generated 316095 bytes in 760 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 108130304 bytes/103MB} {rss usage: 41762816 bytes/39MB} [pid: 9667|app: 0|req: 32/32] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 15:46:05 2014] GET / => generated 324678 bytes in 779 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 108142592 bytes/103MB} {rss usage: 41791488 bytes/39MB} [pid: 9667|app: 0|req: 33/33] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 16:21:35 2014] GET / => generated 324678 bytes in 760 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+{address space usage: 108150784 bytes/103MB} {rss usage: 41820160 bytes/39MB} [pid: 9667|app: 0|req: 34/34] 123.138.79.10 () {40 vars in 733 bytes} [Sat Nov  8 22:07:54 2014] GET / => generated 324678 bytes in 766 msecs (HTTP/1.1 200) 2 headers in 83 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 35/35] 123.138.79.10 () {42 vars in 800 bytes} [Sat Nov  8 22:08:09 2014] GET /user/cheeaun => generated 17808 bytes in 48 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 36/36] 123.138.79.10 () {42 vars in 792 bytes} [Sat Nov  8 22:12:34 2014] GET /user/c9s => generated 40309 bytes in 108 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 37/37] 123.138.79.10 () {40 vars in 733 bytes} [Sat Nov  8 23:06:51 2014] GET / => generated 441 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 38/38] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:06:54 2014] GET / => generated 441 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 39/39] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:06:56 2014] GET / => generated 441 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 40/40] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:06:59 2014] GET / => generated 441 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 41/41] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:07:29 2014] GET / => generated 441 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 42/42] 123.138.79.10 () {40 vars in 733 bytes} [Sat Nov  8 23:07:33 2014] GET / => generated 441 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 43/43] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:07:35 2014] GET / => generated 441 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 44/44] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:08:23 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 45/45] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:08:32 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 46/46] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:08:34 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 47/47] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:08:35 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 48/48] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:08:37 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 49/49] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:08:38 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 50/50] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:09:10 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 51/51] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:09:12 2014] GET / => generated 678 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 52/52] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:09:14 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 53/53] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:09:15 2014] GET / => generated 678 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 54/54] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:09:17 2014] GET / => generated 913 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 55/55] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:09:20 2014] GET / => generated 1133 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 56/56] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:09:21 2014] GET / => generated 1133 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 57/57] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:10:36 2014] GET / => generated 3583 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 58/58] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:10:42 2014] GET / => generated 3801 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 59/59] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:10:44 2014] GET / => generated 3801 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 60/60] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:10:47 2014] GET / => generated 4030 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 61/61] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:11:55 2014] GET / => generated 5839 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 62/62] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:12:18 2014] GET / => generated 5839 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 63/63] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:12:21 2014] GET / => generated 5839 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 64/64] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:13:06 2014] GET / => generated 5839 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 65/65] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:13:08 2014] GET / => generated 5839 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42012672 bytes/40MB} [pid: 9667|app: 0|req: 66/66] 123.138.79.10 () {42 vars in 792 bytes} [Sat Nov  8 23:14:01 2014] GET /user/c9s => generated 291 bytes in 14 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 67/67] 123.138.79.10 () {42 vars in 796 bytes} [Sat Nov  8 23:14:04 2014] GET /user/jserv => generated 291 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 68/68] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:14:09 2014] GET / => generated 5839 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 69/69] 123.138.79.10 () {42 vars in 764 bytes} [Sat Nov  8 23:14:12 2014] GET / => generated 5839 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 70/70] 123.138.79.10 () {42 vars in 798 bytes} [Sat Nov  8 23:14:13 2014] GET /user/dabeaz => generated 291 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 71/71] 123.138.79.10 () {40 vars in 733 bytes} [Sun Nov  9 09:01:00 2014] GET / => generated 26912 bytes in 50 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 72/72] 123.138.79.10 () {40 vars in 684 bytes} [Sun Nov  9 09:01:01 2014] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 73/73] 123.138.79.10 () {42 vars in 800 bytes} [Sun Nov  9 09:02:48 2014] GET /user/Unknwon => generated 291 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 74/74] 123.138.79.10 () {40 vars in 733 bytes} [Sun Nov  9 11:41:58 2014] GET / => generated 26912 bytes in 52 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Nov  9 16:04:11 2014] ***
+compiled with version: 4.6.3 on 08 November 2014 11:43:50
+os: Linux-3.2.0-29-generic #46-Ubuntu SMP Fri Jul 27 17:03:23 UTC 2012
+nodename: AY140323100208229e7dZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lintong/Flask/github
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3783
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:5000).
+bind(): Address already in use [core/socket.c line 761]
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 75/75] 123.138.79.10 () {40 vars in 732 bytes} [Sun Nov  9 16:05:18 2014] GET / => generated 953 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 108150784 bytes/103MB} {rss usage: 42020864 bytes/40MB} [pid: 9667|app: 0|req: 76/76] 123.138.79.10 () {42 vars in 763 bytes} [Sun Nov  9 16:05:28 2014] GET / => generated 953 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+Sun Nov  9 16:14:12 2014 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.8 (64bit) on [Sun Nov  9 17:21:03 2014] ***
+compiled with version: 4.6.3 on 08 November 2014 11:43:50
+os: Linux-3.2.0-29-generic #46-Ubuntu SMP Fri Jul 27 17:03:23 UTC 2012
+nodename: AY140323100208229e7dZ
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/lintong/Flask/github
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 3783
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:5000 fd 3
+Python version: 2.7.3 (default, Feb 27 2014, 20:09:21)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1853de0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145536 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/lintong/Flask/github/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1853de0 pid: 4621 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4621)
+spawned uWSGI worker 1 (pid: 4627, cores: 1)
+{address space usage: 82178048 bytes/78MB} {rss usage: 16887808 bytes/16MB} [pid: 4627|app: 0|req: 1/1] 123.138.79.10 () {40 vars in 733 bytes} [Sun Nov  9 17:21:22 2014] GET / => generated 2262 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82178048 bytes/78MB} {rss usage: 17199104 bytes/16MB} [pid: 4627|app: 0|req: 2/2] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:38:05 2014] GET / => generated 7429 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17248256 bytes/16MB} [pid: 4627|app: 0|req: 3/3] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:39:47 2014] GET / => generated 7691 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17276928 bytes/16MB} [pid: 4627|app: 0|req: 4/4] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:43:49 2014] GET / => generated 7942 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17297408 bytes/16MB} [pid: 4627|app: 0|req: 5/5] 117.136.25.213 () {40 vars in 786 bytes} [Sun Nov  9 18:43:54 2014] GET / => generated 7942 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17313792 bytes/16MB} [pid: 4627|app: 0|req: 6/6] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:44:30 2014] GET / => generated 7942 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17313792 bytes/16MB} [pid: 4627|app: 0|req: 7/7] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:46:22 2014] GET / => generated 8211 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17358848 bytes/16MB} [pid: 4627|app: 0|req: 8/8] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:46:32 2014] GET / => generated 8211 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17371136 bytes/16MB} [pid: 4627|app: 0|req: 9/9] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:49:28 2014] GET / => generated 8459 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17383424 bytes/16MB} [pid: 4627|app: 0|req: 10/10] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:50:18 2014] GET / => generated 8459 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17387520 bytes/16MB} [pid: 4627|app: 0|req: 11/11] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:50:57 2014] GET / => generated 8459 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82341888 bytes/78MB} {rss usage: 17395712 bytes/16MB} [pid: 4627|app: 0|req: 12/12] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:50:59 2014] GET / => generated 8459 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82313216 bytes/78MB} {rss usage: 17403904 bytes/16MB} [pid: 4627|app: 0|req: 13/13] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:51:57 2014] GET / => generated 8459 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82518016 bytes/78MB} {rss usage: 17403904 bytes/16MB} [pid: 4627|app: 0|req: 14/14] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 18:52:03 2014] GET / => generated 8459 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82518016 bytes/78MB} {rss usage: 17469440 bytes/16MB} [pid: 4627|app: 0|req: 15/15] 112.65.193.16 () {36 vars in 442 bytes} [Sun Nov  9 19:05:09 2014] GET / => generated 9242 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82518016 bytes/78MB} {rss usage: 17514496 bytes/16MB} [pid: 4627|app: 0|req: 16/16] 61.154.16.123 () {42 vars in 837 bytes} [Sun Nov  9 19:05:09 2014] GET / => generated 9242 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82518016 bytes/78MB} {rss usage: 17534976 bytes/16MB} [pid: 4627|app: 0|req: 17/17] 101.226.66.174 () {36 vars in 443 bytes} [Sun Nov  9 19:05:09 2014] GET / => generated 9242 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82518016 bytes/78MB} {rss usage: 17534976 bytes/16MB} [pid: 4627|app: 0|req: 18/18] 180.153.201.212 () {36 vars in 444 bytes} [Sun Nov  9 19:05:09 2014] GET / => generated 9242 bytes in 18 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 82518016 bytes/78MB} {rss usage: 17543168 bytes/16MB} [pid: 4627|app: 0|req: 19/19] 61.154.16.123 () {44 vars in 922 bytes} [Sun Nov  9 19:06:27 2014] GET /user/franciscocardoso => generated 506 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+{address space usage: 82665472 bytes/78MB} {rss usage: 17547264 bytes/16MB} [pid: 4627|app: 0|req: 20/20] 123.138.79.10 () {40 vars in 733 bytes} [Sun Nov  9 19:44:25 2014] GET / => generated 12115 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 82665472 bytes/78MB} {rss usage: 17715200 bytes/16MB} [pid: 4627|app: 0|req: 21/21] 123.138.79.10 () {40 vars in 684 bytes} [Sun Nov  9 19:44:26 2014] GET /favicon.ico => generated 233 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 71 bytes (1 switches on core 0)
+{address space usage: 82968576 bytes/79MB} {rss usage: 17747968 bytes/16MB} [pid: 4627|app: 0|req: 22/22] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 19:44:33 2014] GET / => generated 12115 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 82968576 bytes/79MB} {rss usage: 17907712 bytes/17MB} [pid: 4627|app: 0|req: 23/23] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 19:45:16 2014] GET / => generated 12115 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 82968576 bytes/79MB} {rss usage: 17973248 bytes/17MB} [pid: 4627|app: 0|req: 24/24] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 19:54:42 2014] GET / => generated 12619 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 82968576 bytes/79MB} {rss usage: 17993728 bytes/17MB} [pid: 4627|app: 0|req: 25/25] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 19:54:45 2014] GET / => generated 12619 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 82968576 bytes/79MB} {rss usage: 18001920 bytes/17MB} [pid: 4627|app: 0|req: 26/26] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 19:54:47 2014] GET / => generated 12619 bytes in 22 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 82968576 bytes/79MB} {rss usage: 18010112 bytes/17MB} [pid: 4627|app: 0|req: 27/27] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 19:58:36 2014] GET / => generated 12879 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83107840 bytes/79MB} {rss usage: 18030592 bytes/17MB} [pid: 4627|app: 0|req: 28/28] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:02:45 2014] GET / => generated 13379 bytes in 25 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83107840 bytes/79MB} {rss usage: 18096128 bytes/17MB} [pid: 4627|app: 0|req: 29/29] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:11:57 2014] GET / => generated 13645 bytes in 29 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83337216 bytes/79MB} {rss usage: 18219008 bytes/17MB} [pid: 4627|app: 0|req: 30/30] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:11:59 2014] GET / => generated 13645 bytes in 25 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83337216 bytes/79MB} {rss usage: 18333696 bytes/17MB} [pid: 4627|app: 0|req: 31/31] 117.136.25.213 () {40 vars in 786 bytes} [Sun Nov  9 20:26:59 2014] GET / => generated 14956 bytes in 28 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83337216 bytes/79MB} {rss usage: 18415616 bytes/17MB} [pid: 4627|app: 0|req: 32/32] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:31:50 2014] GET / => generated 15232 bytes in 29 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83337216 bytes/79MB} {rss usage: 18444288 bytes/17MB} [pid: 4627|app: 0|req: 33/33] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:31:53 2014] GET / => generated 15232 bytes in 29 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83337216 bytes/79MB} {rss usage: 18448384 bytes/17MB} [pid: 4627|app: 0|req: 34/34] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:36:50 2014] GET / => generated 15504 bytes in 30 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83574784 bytes/79MB} {rss usage: 18448384 bytes/17MB} [pid: 4627|app: 0|req: 35/35] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:38:39 2014] GET / => generated 15770 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83574784 bytes/79MB} {rss usage: 18567168 bytes/17MB} [pid: 4627|app: 0|req: 36/36] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:38:42 2014] GET / => generated 15770 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83574784 bytes/79MB} {rss usage: 18575360 bytes/17MB} [pid: 4627|app: 0|req: 37/37] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:47:12 2014] GET / => generated 16537 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83574784 bytes/79MB} {rss usage: 18608128 bytes/17MB} [pid: 4627|app: 0|req: 38/38] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:55:08 2014] GET / => generated 17044 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83574784 bytes/79MB} {rss usage: 18644992 bytes/17MB} [pid: 4627|app: 0|req: 39/39] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 20:55:10 2014] GET / => generated 17044 bytes in 33 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83574784 bytes/79MB} {rss usage: 18661376 bytes/17MB} [pid: 4627|app: 0|req: 40/40] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 21:04:03 2014] GET / => generated 17575 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83775488 bytes/79MB} {rss usage: 18690048 bytes/17MB} [pid: 4627|app: 0|req: 41/41] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 21:04:07 2014] GET / => generated 17575 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83775488 bytes/79MB} {rss usage: 18776064 bytes/17MB} [pid: 4627|app: 0|req: 42/42] 123.138.79.10 () {42 vars in 763 bytes} [Sun Nov  9 21:34:15 2014] GET / => generated 19935 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 83775488 bytes/79MB} {rss usage: 18780160 bytes/17MB} [pid: 4627|app: 0|req: 43/43] 123.138.79.10 () {40 vars in 683 bytes} [Sun Nov  9 21:34:15 2014] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 71 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+{address space usage: 84299776 bytes/80MB} {rss usage: 19046400 bytes/18MB} [pid: 4627|app: 0|req: 44/44] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 22:53:46 2014] GET / => generated 26168 bytes in 50 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 84471808 bytes/80MB} {rss usage: 19185664 bytes/18MB} [pid: 4627|app: 0|req: 45/45] 112.97.38.195 () {36 vars in 620 bytes} [Sun Nov  9 22:56:19 2014] GET / => generated 26429 bytes in 51 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 84471808 bytes/80MB} {rss usage: 19386368 bytes/18MB} [pid: 4627|app: 0|req: 46/46] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 22:57:55 2014] GET / => generated 26679 bytes in 54 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 84471808 bytes/80MB} {rss usage: 19410944 bytes/18MB} [pid: 4627|app: 0|req: 47/47] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 22:59:16 2014] GET / => generated 26938 bytes in 52 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 84471808 bytes/80MB} {rss usage: 19419136 bytes/18MB} [pid: 4627|app: 0|req: 48/48] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 22:59:19 2014] GET / => generated 26938 bytes in 50 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 84471808 bytes/80MB} {rss usage: 19423232 bytes/18MB} [pid: 4627|app: 0|req: 49/49] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 22:59:21 2014] GET / => generated 26938 bytes in 53 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 84471808 bytes/80MB} {rss usage: 19423232 bytes/18MB} [pid: 4627|app: 0|req: 50/50] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 22:59:22 2014] GET / => generated 26938 bytes in 50 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 84471808 bytes/80MB} {rss usage: 19423232 bytes/18MB} [pid: 4627|app: 0|req: 51/51] 123.138.79.10 () {42 vars in 764 bytes} [Sun Nov  9 23:00:56 2014] GET / => generated 26938 bytes in 52 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 84471808 bytes/80MB} {rss usage: 19423232 bytes/18MB} [pid: 4627|app: 0|req: 52/52] 117.136.25.213 () {40 vars in 786 bytes} [Sun Nov  9 23:59:06 2014] GET / => generated 31646 bytes in 57 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+-- unavailable modifier requested: 128 --
+{address space usage: 85712896 bytes/81MB} {rss usage: 20508672 bytes/19MB} [pid: 4627|app: 0|req: 53/54] 42.120.142.222 () {24 vars in 257 bytes} [Mon Nov 10 04:58:19 2014] GET / => generated 54430 bytes in 104 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 85712896 bytes/81MB} {rss usage: 20721664 bytes/19MB} [pid: 4627|app: 0|req: 54/55] 42.120.142.222 () {24 vars in 261 bytes} [Mon Nov 10 04:58:23 2014] OPTIONS / => generated 0 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 104 bytes (0 switches on core 0)
+invalid request block size: 19525 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+Empty python request. skip.
+{address space usage: 85712896 bytes/81MB} {rss usage: 20721664 bytes/19MB} [pid: 4627|app: -1|req: -1/57]  () {0 vars in 0 bytes} [Mon Nov 10 04:58:23 2014]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 25956 (max 4096)...skip
+invalid request block size: 19790 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 25709 (max 4096)...skip
+-- unavailable modifier requested: 58 --
+invalid request block size: 20000 (max 4096)...skip
+-- unavailable modifier requested: 1 --
+{address space usage: 86544384 bytes/82MB} {rss usage: 20058112 bytes/19MB} [pid: 4627|app: 0|req: 55/61] 117.136.25.213 () {40 vars in 786 bytes} [Mon Nov 10 07:07:32 2014] GET / => generated 63864 bytes in 309 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87523328 bytes/83MB} {rss usage: 20860928 bytes/19MB} [pid: 4627|app: 0|req: 56/62] 123.138.79.10 () {40 vars in 732 bytes} [Mon Nov 10 09:26:35 2014] GET / => generated 72219 bytes in 145 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87523328 bytes/83MB} {rss usage: 21041152 bytes/20MB} [pid: 4627|app: 0|req: 57/63] 123.138.79.10 () {40 vars in 683 bytes} [Mon Nov 10 09:26:36 2014] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 71 bytes (1 switches on core 0)
+{address space usage: 86093824 bytes/82MB} {rss usage: 20373504 bytes/19MB} [pid: 4627|app: 0|req: 58/64] 123.138.79.10 () {42 vars in 797 bytes} [Mon Nov 10 09:26:55 2014] GET /user/square => generated 20436 bytes in 51 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 86093824 bytes/82MB} {rss usage: 20373504 bytes/19MB} [pid: 4627|app: 0|req: 59/65] 123.138.79.10 () {42 vars in 799 bytes} [Mon Nov 10 09:27:38 2014] GET /user/microrb => generated 699 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+{address space usage: 86093824 bytes/82MB} {rss usage: 20373504 bytes/19MB} [pid: 4627|app: 0|req: 60/66] 123.138.79.10 () {42 vars in 801 bytes} [Mon Nov 10 09:27:44 2014] GET /user/mechfish => generated 3499 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+{address space usage: 86093824 bytes/82MB} {rss usage: 20373504 bytes/19MB} [pid: 4627|app: 0|req: 61/67] 123.138.79.10 () {42 vars in 797 bytes} [Mon Nov 10 09:27:52 2014] GET /user/heavyk => generated 2798 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+{address space usage: 87601152 bytes/83MB} {rss usage: 21114880 bytes/20MB} [pid: 4627|app: 0|req: 62/68] 123.138.79.10 () {40 vars in 733 bytes} [Mon Nov 10 10:17:45 2014] GET / => generated 76186 bytes in 150 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87588864 bytes/83MB} {rss usage: 21483520 bytes/20MB} [pid: 4627|app: 0|req: 63/69] 123.138.79.10 () {42 vars in 764 bytes} [Mon Nov 10 10:17:49 2014] GET / => generated 76186 bytes in 147 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87588864 bytes/83MB} {rss usage: 21487616 bytes/20MB} [pid: 4627|app: 0|req: 64/70] 123.138.79.10 () {44 vars in 829 bytes} [Mon Nov 10 10:21:21 2014] GET /user/square => generated 20436 bytes in 52 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87601152 bytes/83MB} {rss usage: 21217280 bytes/20MB} [pid: 4627|app: 0|req: 65/71] 123.138.79.10 () {40 vars in 733 bytes} [Mon Nov 10 10:21:27 2014] GET / => generated 76445 bytes in 152 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87588864 bytes/83MB} {rss usage: 21483520 bytes/20MB} [pid: 4627|app: 0|req: 66/72] 123.138.79.10 () {42 vars in 764 bytes} [Mon Nov 10 10:21:29 2014] GET / => generated 76445 bytes in 151 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87617536 bytes/83MB} {rss usage: 21483520 bytes/20MB} [pid: 4627|app: 0|req: 67/73] 123.138.79.10 () {42 vars in 763 bytes} [Mon Nov 10 10:53:44 2014] GET / => generated 78010 bytes in 149 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87621632 bytes/83MB} {rss usage: 21483520 bytes/20MB} [pid: 4627|app: 0|req: 68/74] 123.138.79.10 () {42 vars in 763 bytes} [Mon Nov 10 10:53:47 2014] GET / => generated 78010 bytes in 152 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87629824 bytes/83MB} {rss usage: 21483520 bytes/20MB} [pid: 4627|app: 0|req: 69/75] 123.138.79.10 () {42 vars in 764 bytes} [Mon Nov 10 11:11:26 2014] GET / => generated 78531 bytes in 155 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87629824 bytes/83MB} {rss usage: 21483520 bytes/20MB} [pid: 4627|app: 0|req: 70/76] 123.138.79.10 () {42 vars in 764 bytes} [Mon Nov 10 11:11:28 2014] GET / => generated 78531 bytes in 151 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87822336 bytes/83MB} {rss usage: 21483520 bytes/20MB} [pid: 4627|app: 0|req: 71/77] 123.138.79.10 () {42 vars in 764 bytes} [Mon Nov 10 11:31:06 2014] GET / => generated 79579 bytes in 153 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87891968 bytes/83MB} {rss usage: 21483520 bytes/20MB} [pid: 4627|app: 0|req: 72/78] 119.147.225.112 () {50 vars in 1113 bytes} [Mon Nov 10 11:57:22 2014] GET / => generated 81406 bytes in 158 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+{address space usage: 87891968 bytes/83MB} {rss usage: 21725184 bytes/20MB} [pid: 4627|app: 0|req: 73/79] 119.147.225.112 () {48 vars in 1004 bytes} [Mon Nov 10 11:57:22 2014] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 71 bytes (1 switches on core 0)
+{address space usage: 88387584 bytes/84MB} {rss usage: 22040576 bytes/21MB} [pid: 4627|app: 0|req: 74/80] 123.138.79.10 () {42 vars in 764 bytes} [Mon Nov 10 14:50:31 2014] GET / => generated 93320 bytes in 185 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)

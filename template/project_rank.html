@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block container %}
+
+<h2 align="center">项目数量:{{number}}</h2>
+<div id = "wrapper"> 
+    <div id = "cell">
+        <div name = "content">
+            {% for project in project_list %}
+            <div>
+                {{project['score']}}&nbsp&nbsp
+               得分：<a href="https://www.github.com/{{project['name']}}" target="_blank">{{project['name']}}</a> &nbsp&nbsp
+            </div>
+                <br/>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<style type="text/css">
+        #wrapper {display:table; margin-left:45%;}
+        #cell {display:table-cell;vertical-align:middle;}
+ </style>
+{% endblock %}
+
+ 

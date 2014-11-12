@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block container %}
+<h2 align="center">组织数量:{{number}}</h2>
+<div id = "wrapper"> 
+<div id = "cell">
+<div name = "content">
+    {% for organization in organization_list %}
+    <div>
+        得分：{{organization['score']}}&nbsp&nbsp
+        <a href="https://www.github.com/{{organization['name']}}" target="_blank">{{organization['name']}}</a> &nbsp&nbsp
+        <a href="{{organization['info_url']}}" target="_blank">获取信息</a>&nbsp&nbsp
+        <span>更新日期{{organization['update_date']}}</span>
+    </div>
+        <br/>
+    {% endfor %}
+</div>
+</div>
+</div>
+<style type="text/css">
+        #wrapper {display:table; margin-left:40%;}
+        #cell {display:table-cell;vertical-align:middle;}
+</style>
+{% endblock %}
+
+ 

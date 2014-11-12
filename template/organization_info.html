@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block container %}
+<div id = "wrapper"> 
+    <div id = "cell">
+            <div name = "content">
+                <div>
+                    <h2> 组织名：{{organization['name']}}</h2>
+                    <h3>成员列表:</h3>
+                    <ul>
+                        {% for member in organization['member_list'] %}
+                        <li>
+                        <a href='https://www.github.com/' + member>{{member}}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <h3>项目列表:</h3>
+                    <div>
+                    {% for project in project_list%}
+                        <div>
+                        项目名：&nbsp&nbsp<a href="https://www.github.com/{{project['name']}}" target="_blank">{{project['name']}}</a><br/>
+                        开发语言:&nbsp&nbsp<span>{{project['language']}}</span><br/>
+                        项目描述:&nbsp&nbsp<span>{{project['desc']}}</span><br/>
+                        </div>
+                        <br/>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<style type="text/css">
+    #wrapper {display:table; margin-left:40%;}
+    #cell {display:table-cell;vertical-align:middle;}
+</style>
+{% endblock %}

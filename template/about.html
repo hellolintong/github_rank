@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block container %}
+
+<div id = "wrapper">
+    <div id = "cell">
+<div name = "content">
+    <h2>网站说明</h2>
+    <div>
+       该网站前端采用Bootstrap模板，后端采用Flask框架开发，使用MongoDB数据库，搭配nginx服务器<br/>
+        数据采用BeautifulSoup和requests模块爬取github上的数据<br/>
+        该网站由本人独立完成，我的<a href = 'https://www.github.com/hellolintong'>github网址</a><br/>
+        在此感谢董超学长提供的VPS<br/>
+    </div>
+    <h2>得分计算公式</h2>
+    <div>
+         用户得分 = 跟随用户的数量 * 0.４ + （原创项目的得分 + fork项目数量） * 0.3 + 组织的得分 * 0.3<br/>
+        组织得分 = 项目数量 * 0.7 + 成员数量 * 0.3<br/>
+        项目得分 =  star数量 + fork数量 + 1 <br/>
+    </div>
+</div>
+
+</div>
+</div>
+<style type="text/css">
+        #wrapper {display:table; margin-left:40%;}
+            #cell {display:table-cell;vertical-align:middle;}
+</style>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block container %}
+
+<h2 align="center">搜索人数：{{number}}</h2>
+<div id = "wrapper"> 
+<div id = "cell">
+    <div name = "content" >
+
+    {% for user in user_list %}
+    <div>
+        得分：{{user['score']}}&nbsp&nbsp
+        用户名：<a href="https://www.github.com/{{user['name']}}" target="_blank">{{user['name']}}</a> &nbsp&nbsp
+        <a href="{{user['info_url']}}" target="_blank">获取信息</a>&nbsp&nbsp
+        <span>更新时间：{{user['update_date']}}</span>
+    </div>
+        <br/>
+    {% endfor %}
+    </div>
+</div>
+</div>
+<style type="text/css">
+        #wrapper {display:table; margin-left:40%;}
+        #cell {display:table-cell;vertical-align:middle;}
+</style>
+{% endblock %}
+
+ 

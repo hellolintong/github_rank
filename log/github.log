@@ -1,0 +1,1298 @@
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 3, in <module>
+    from handler import user_handler
+  File "/home/lintong/Flask/github/handler/user_handler.py", line 3, in <module>
+    from db.user import user_model
+  File "/home/lintong/Flask/github/db/user/user_model.py", line 3, in <module>
+    from user_storage import UserStorage
+  File "/home/lintong/Flask/github/db/user/user_storage.py", line 7, in <module>
+    mongoengine.connect(Config.DB_NAME, host=Config.DB_HOST, port=Config.DB_PORT)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 161, in connect
+    return get_connection(alias)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 124, in get_connection
+    raise ConnectionError("Cannot connect to database %s :\n%s" % (alias, e))
+mongoengine.connection.ConnectionError: Cannot connect to database default :
+[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 3, in <module>
+    from handler import user_handler
+  File "/home/lintong/Flask/github/handler/user_handler.py", line 3, in <module>
+    from db.user import user_model
+  File "/home/lintong/Flask/github/db/user/user_model.py", line 3, in <module>
+    from user_storage import UserStorage
+  File "/home/lintong/Flask/github/db/user/user_storage.py", line 7, in <module>
+    mongoengine.connect(Config.DB_NAME, host=Config.DB_HOST, port=Config.DB_PORT)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 161, in connect
+    return get_connection(alias)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 124, in get_connection
+    raise ConnectionError("Cannot connect to database %s :\n%s" % (alias, e))
+mongoengine.connection.ConnectionError: Cannot connect to database default :
+[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 3, in <module>
+    from handler import user_handler
+  File "/home/lintong/Flask/github/handler/user_handler.py", line 3, in <module>
+    from db.user import user_model
+  File "/home/lintong/Flask/github/db/user/user_model.py", line 3, in <module>
+    from user_storage import UserStorage
+  File "/home/lintong/Flask/github/db/user/user_storage.py", line 7, in <module>
+    mongoengine.connect(Config.DB_NAME, host=Config.DB_HOST, port=Config.DB_PORT)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 161, in connect
+    return get_connection(alias)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 124, in get_connection
+    raise ConnectionError("Cannot connect to database %s :\n%s" % (alias, e))
+mongoengine.connection.ConnectionError: Cannot connect to database default :
+[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 3, in <module>
+    from handler import user_handler
+  File "/home/lintong/Flask/github/handler/user_handler.py", line 3, in <module>
+    from db.user import user_model
+  File "/home/lintong/Flask/github/db/user/user_model.py", line 3, in <module>
+    from user_storage import UserStorage
+  File "/home/lintong/Flask/github/db/user/user_storage.py", line 7, in <module>
+    mongoengine.connect(Config.DB_NAME, host=Config.DB_HOST, port=Config.DB_PORT)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 161, in connect
+    return get_connection(alias)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 124, in get_connection
+    raise ConnectionError("Cannot connect to database %s :\n%s" % (alias, e))
+mongoengine.connection.ConnectionError: Cannot connect to database default :
+[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 3, in <module>
+    from handler import user_handler
+  File "/home/lintong/Flask/github/handler/user_handler.py", line 3, in <module>
+    from db.user import user_model
+  File "/home/lintong/Flask/github/db/user/user_model.py", line 3, in <module>
+    from user_storage import UserStorage
+  File "/home/lintong/Flask/github/db/user/user_storage.py", line 7, in <module>
+    mongoengine.connect(Config.DB_NAME, host=Config.DB_HOST, port=Config.DB_PORT)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 161, in connect
+    return get_connection(alias)
+  File "/usr/local/lib/python2.7/dist-packages/mongoengine/connection.py", line 124, in get_connection
+    raise ConnectionError("Cannot connect to database %s :\n%s" % (alias, e))
+mongoengine.connection.ConnectionError: Cannot connect to database default :
+[Errno 111] Connection refused
+ * Running on http://0.0.0.0:5000/
+123.138.79.10 - - [07/Nov/2014 21:33:15] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:33:17] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:33:19] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:33:23] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:01] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:03] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:05] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:07] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:10] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:13] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:17] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:20] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:21] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:22] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:23] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:23] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:32] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:33] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:40] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:35:41] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:36:16] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:36:17] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:36:24] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:36:26] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:36:31] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:39:09] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:39:56] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:42:27] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:48:53] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:49:19] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:49:22] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:49:23] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:50:37] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:50:54] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:50:55] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:08] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:10] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:26] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:28] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:29] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:31] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:46] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:48] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:52] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:55] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:57] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:51:59] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:52:01] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:52:06] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:52:22] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:52:24] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:52:27] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:52:29] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:52:31] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:53:13] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:53:15] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:53:20] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:53:22] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:53:35] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:53:38] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:53:39] "GET / HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:5000/
+123.138.79.10 - - [07/Nov/2014 21:57:12] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:57:14] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:58:49] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:58:51] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:58:54] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:58:59] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:59:18] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:59:29] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:59:31] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:59:33] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 21:59:35] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:00:21] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:00:21] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:00:34] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:00:36] "GET / HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:5000/
+123.138.79.10 - - [07/Nov/2014 22:00:49] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:00:52] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:01:16] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:01:45] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:03:17] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:03:21] "GET / HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:5000/
+ * Running on http://0.0.0.0:5000/
+123.138.79.10 - - [07/Nov/2014 22:14:13] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:14:21] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:14:34] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:14:55] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:14:57] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:15:10] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:15:17] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:21:57] code 400, message Bad request syntax ("\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03\xe8J\xac\xc8\x0fk\xf5\xd0H\x92\x81\xd2\xc5\xa0\x14\x8b7`\x16\xae\xab\xc1\xc8p\xc6\x86\x9c\xe6\x0fe'\x05\x00\x00(\xcc\x14\xcc\x13\xc0+\xc0/\x00\x9e\xc0")
+123.138.79.10 - - [07/Nov/2014 22:21:57] " ∫  ∂ËJ¨»kı–HíÅ“≈†ã7`Æ´¡»p∆ÜúÊe'  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:21:57] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x02\xf7\x10\xd7z8\xc8\xa5\xa0\x17\xeb\xba\xfc\xfb\x95\xd6\x90\xacG\xbe\xf4:\xfc%\xb5\x8a\xbe\x03\x19\xcd|M\xe1\x00\x00\x1eV\x00\xc0')
+123.138.79.10 - - [07/Nov/2014 22:21:57] " ö  ñ˜◊z8»•†Î∫¸˚ï÷ê¨GæÙ:¸%µäæÕ|M·  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:21:57] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x01\x14.\xc8eF6G\xb1')
+123.138.79.10 - - [07/Nov/2014 22:21:57] " ö  ñ.»eF6G±" 400 -
+123.138.79.10 - - [07/Nov/2014 22:21:57] code 400, message Bad request syntax ('\x16\x03\x00\x00?\x01\x00\x00;\x03\x00\xcb\xba\xdf`+\xcd\xfe<\xc6\x8fU`\xbe\x96U-\xe6\xe9\xcaw:\xa0\xc9\xb8ue\x19\xf9\xf3\x8dY\x81\x00\x00\x14\x00\xffV\x00\x003\x002\x009\x00/\x005\x00')
+123.138.79.10 - - [07/Nov/2014 22:21:57] "  ?  ; À∫ﬂ`+Õ˛<∆èU`æñU-ÊÈ w:†…∏ue˘ÛçYÅ   ˇV  3 2 9 / 5 " 400 -
+123.138.79.10 - - [07/Nov/2014 22:21:58] code 400, message Bad request syntax ('\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03\xeb\xb3\xd7X_.\xf6\xe8\xcb\xd4`\xdd\xee\xcb9\xd8\xe5\x92\xaf\xc4\xc5\x14\xfe\xde\xf7\xf3N|\xa85(\x99\x00\x00(\xcc\x14\xcc\x13\xc0+\xc0/\x00\x9e\xc0')
+123.138.79.10 - - [07/Nov/2014 22:21:58] " ∫  ∂Î≥◊X_.ˆËÀ‘`›ÓÀ9ÿÂíØƒ≈˛ﬁ˜ÛN|®5(ô  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:21:58] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x02!z\x0ck<\x8a\x15\xfaO\x94s8\xee"\x0c\x9e\x7f \x06\x9b\x8f+\x9a+\xc1\xe34y\xebq"\x02\x00\x00\x1eV\x00\xc0')
+123.138.79.10 - - [07/Nov/2014 22:21:58] " ö  ñ!zk<ä˙Oîs8Ó"û õè+ö+¡„4yÎq"  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:21:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x01\xc0\xdaE&\xc8\xb0\xccRu\xa1\x10}5\xb3\x8f')
+123.138.79.10 - - [07/Nov/2014 22:21:58] " ö  ñ¿⁄E&»∞ÃRu°}5≥è èl9áúà}>å«XµÕ$  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:21:58] code 400, message Bad request syntax ('\x16\x03\x00\x00?\x01\x00\x00;\x03\x00\xc0B\x14q\x9b\x86\xd00\xf8t{\xf2Q,\xfd\x13e4\xaf\x9e|\xdap\xb5;\xc7\x7f\x11\xeb<a\xee\x00\x00\x14\x00\xffV\x00\x003\x002\x009\x00/\x005\x00')
+123.138.79.10 - - [07/Nov/2014 22:21:58] "  ?  ; ¿BqõÜ–0¯t{ÚQ,˝e4Øû|⁄pµ;«Î<aÓ   ˇV  3 2 9 / 5 " 400 -
+123.138.79.10 - - [07/Nov/2014 22:23:37] "GET / HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:25:01] "GET / HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:25:01] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:25:03] "GET / HTTP/1.1" 200 -
+115.155.1.118 - - [07/Nov/2014 22:25:33] "GET / HTTP/1.1" 200 -
+115.155.1.118 - - [07/Nov/2014 22:25:40] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.118 - - [07/Nov/2014 22:25:40] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.118 - - [07/Nov/2014 22:25:40] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.118 - - [07/Nov/2014 22:25:46] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:25:54] code 400, message Bad request syntax ('\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03$r)J\xcab\xdb\xb3\xcc3q#\xda\x90\xf0\xa6\xdfR\xbd\xcf\x8ea\xcb\x11ff\xef8t\xcc\xae\xf4\x00\x00(\xcc\x14\xcc\x13\xc0+\xc0/\x00\x9e\xc0')
+123.138.79.10 - - [07/Nov/2014 22:25:54] " ∫  ∂$r)J b€≥Ã3q#⁄ê¶ﬂRΩœéaÀffÔ8tÃÆÙ  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:54] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03_b6GdA\x1dY\xaf\xc6\x15\x12\x1d\x90_')
+123.138.79.10 - - [07/Nov/2014 22:25:54] " ∫  ∂_b6GdAYØ∆ê_ >`(7êüCØ†wdﬂÀT  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:54] code 400, message Bad request syntax ('\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03<\xc3\xbd\x98\xf0\xf5\x1ehx<\xf0\xae\x11\x9d.\xd0\xc7\xefg\x03\xd5\xb6P\xdf\x92\xf7\xb5\xb0\x90e\xd0\x92\x00\x00(\xcc\x14\xcc\x13\xc0+\xc0/\x00\x9e\xc0')
+123.138.79.10 - - [07/Nov/2014 22:25:54] " ∫  ∂<√Ωòıhx<Æù.–«Ôg’∂Pﬂí˜µ∞êe–í  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:54] code 400, message Bad request version ('\xe9\xfe{.\xde\x17\x00\x00\x1eV\x00\xc0')
+123.138.79.10 - - [07/Nov/2014 22:25:54] " ö  ñf˙S¯1,~P◊Y¨>s™ÚNò•øyiådÈ˛{.ﬁ  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:55] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x01\xc5N\xf3\x96\xb2\xecg\x8dS\xf2\xc6\xe9\xc9\xf6\xb8\xf1\xfa\x15"DE\xa6\x03\xffH]\x989\xd9F\x05+\x00\x00\x1eV\x00\xc0')
+123.138.79.10 - - [07/Nov/2014 22:25:55] " ö  ñ≈NÛñ≤ÏgçSÚ∆È…ˆ∏Ò˙"DE¶ˇH]ò9ŸF+  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:55] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x00\x00?\x01\x00\x00;\x03\x00yW/\xefGr>)')
+123.138.79.10 - - [07/Nov/2014 22:25:55] "  ?  ; yW/ÔGr>) [ä›ÍARé#Ü3}ï∏ûD∞" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:55] code 400, message Bad request syntax ('\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03F\x8b\x87\xd4\xc4A\x86\xa4r?z\x90\x85\x07\x91\xc0ao\x9b\xb2\xe7\xb5\x85\xc69/\xcb\xe8\x16d\x9d=\x00\x00(\xcc\x14\xcc\x13\xc0+\xc0/\x00\x9e\xc0')
+123.138.79.10 - - [07/Nov/2014 22:25:55] " ∫  ∂Fãá‘ƒAÜ§r?zêÖë¿aoõ≤ÁµÖ∆9/ÀËdù=  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:55] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x02\x1dBTJ\x01\xfb\xc1p\x8b\xb9\xea\x90p\xa0^\xc7Y&CW\xf8\xadf\xed\\\x84S\x0e7=\x07\xe4\x00\x00\x1eV\x00\xc0')
+123.138.79.10 - - [07/Nov/2014 22:25:55] " ö  ñBTJ˚¡pãπÍêp†^«Y&CW¯≠fÌ\ÑS7=‰  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:55] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x01\x8a\xa63\xb3\xff#D\xbd\x14\xd1\x9e,\xd3\xb8\xdd\xf1Cv\x081\x94\xe7\xf1FP0\x05aw\xa7BZ\x00\x00\x1eV\x00\xc0')
+123.138.79.10 - - [07/Nov/2014 22:25:55] " ö  ñä¶3≥ˇ#DΩ—û,”∏›ÒCv1îÁÒFP0awßBZ  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:25:55] code 400, message Bad request syntax ("\x16\x03\x00\x00?\x01\x00\x00;\x03\x00D}\xef\x96\x14\x10\x15\xa6\xcf\x16RU\xdd\xdf\xa4F\xadA\x8ev\xc8'\x9bPL\xba^\x15^<\x8f\xf9\x00\x00\x14\x00\xffV\x00\x003\x002\x009\x00/\x005\x00")
+123.138.79.10 - - [07/Nov/2014 22:25:55] "  ?  ; D}Ôñ¶œRU›ﬂ§F≠Aév»'õPL∫^^<è˘   ˇV  3 2 9 / 5 " 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:00] "GET / HTTP/1.1" 200 -
+113.140.29.2 - - [07/Nov/2014 22:26:19] "GET / HTTP/1.1" 200 -
+219.245.66.122 - - [07/Nov/2014 22:26:19] "GET / HTTP/1.1" 200 -
+219.245.66.122 - - [07/Nov/2014 22:26:20] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.2 - - [07/Nov/2014 22:26:20] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.66.122 - - [07/Nov/2014 22:26:23] "GET / HTTP/1.1" 200 -
+219.245.66.122 - - [07/Nov/2014 22:26:29] "GET / HTTP/1.1" 200 -
+219.245.66.122 - - [07/Nov/2014 22:26:31] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:26:44] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:26:44] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:26:45] code 400, message Bad request version ('\x00\x00(\xcc\x14\xcc\x13\xc0+\xc0/\x00\x9e\xc0')
+123.138.79.10 - - [07/Nov/2014 22:26:45] " ∫  ∂˙[Aÿ6Ÿ¨°Ú$i´÷˚&Ìh6œ¯ë  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:45] code 400, message Bad request syntax ('\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03\xdb\xf6\xbc\xb4\xfd\x82\xa3\x86\xac\x99YV\x99\xe6(\xe0s2:\x1d\xe1\xd1\xd8Dv,\x9d\xdd\xa2Z\x9dA\x00\x00(\xcc\x14\xcc\x13\xc0+\xc0/\x00\x9e\xc0')
+123.138.79.10 - - [07/Nov/2014 22:26:45] " ∫  ∂€ˆº¥˝Ç£Ü¨ôYVôÊ(‡s2:·—ÿDv,ù›¢ZùA  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:46] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03/"\'U\xd8\xa6s\xb9\xd8$\xc7t\xa7\xcb\xdd\xef\x97\xd0\xaa')
+123.138.79.10 - - [07/Nov/2014 22:26:46] " ∫  ∂/"'Uÿ¶sπÿ$«tßÀ›Ôó–™=ñx‘◊î…äﬁO!  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:46] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x02hl8\xd4\xb7N7\xe4\x96\x8dg\x85\xf1C\x8b\xcf\\\x15v\xc4\xa7&\xb5-0\xc1')
+123.138.79.10 - - [07/Nov/2014 22:26:46] " ö  ñhl8‘∑N7‰ñçgÖÒCãœ\vƒß&µ-0¡±ZU‰‘  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:46] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x01\xef\x9e\xe0U\xe1\'\xd3\x92O\xb8o"\xd4\x90JN_\x0f\xa7#Q\xd7\x12\x13p\xdc\xe0\xb9Au4\xf0\x00\x00\x1eV\x00\xc0')
+123.138.79.10 - - [07/Nov/2014 22:26:46] " ö  ñÔû‡U·'”íO∏o"‘êJN_ß#Q◊p‹‡πAu4  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:46] code 400, message Bad request syntax ('\x16\x03\x00\x00?\x01\x00\x00;\x03\x00\x1f\xa5\xa6l\x89D\xedu\xcfy\x15o')
+123.138.79.10 - - [07/Nov/2014 22:26:46] "  ?  ; •¶lâDÌuœyo" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:47] code 400, message Bad request syntax ('\x16\x03\x01\x00\xba\x01\x00\x00\xb6\x03\x03\xab\xff#\xbd\x13\xa33\xd4U\xa0\xf2\xad1XQ3\xf7h\xde%y\xcf\xef`\x957\x15\xb9\xa5\xa6\xfe\xfc\x00\x00(\xcc\x14\xcc\x13\xc0+\xc0/\x00\x9e\xc0')
+123.138.79.10 - - [07/Nov/2014 22:26:47] " ∫  ∂´ˇ#Ω£3‘U†Ú≠1XQ3˜hﬁ%yœÔ`ï7π•¶˛¸  (ÃÃ¿+¿/ û¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:47] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x02\xf8\xb0\xb3\xca\x15x\x9a\xe33T<\xb2\\C\x19\x9c\xa3E|\x18\xf53j6T\xf9\x9d0"\x1b\xf3\xd5\x00\x00\x1eV\x00\xc0')
+123.138.79.10 - - [07/Nov/2014 22:26:47] " ö  ñ¯∞≥ xö„3T<≤\Cú£E|ı3j6T˘ù0"Û’  V ¿" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:47] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9a\x01\x00\x00\x96\x03\x01\x19;\x04\x11\xee\xe9b\xad\xa04\xc8\xa0Ieoe\x9c\x04@]\xb6\xee\xc9\xc5')
+123.138.79.10 - - [07/Nov/2014 22:26:47] " ö  ñ;ÓÈb≠†4»†Ieoeú@]∂Ó…≈" 400 -
+123.138.79.10 - - [07/Nov/2014 22:26:47] code 400, message Bad request syntax ('\x16\x03\x00\x00?\x01\x00\x00;\x03\x00\xfcVu\xe6(\xcd%y\xb0\xa6u|h\xfa\xf2]A\xe1n\x18D\x82a\x8c\xf8\xb3UZ~\xe7\x81\x7f\x00\x00\x14\x00\xffV\x00\x003\x002\x009\x00/\x005\x00')
+123.138.79.10 - - [07/Nov/2014 22:26:47] "  ?  ; ¸VuÊ(Õ%y∞¶u|h˙Ú]A·nDÇaå¯≥UZ~ÁÅ   ˇV  3 2 9 / 5 " 400 -
+219.245.100.98 - - [07/Nov/2014 22:26:55] "GET / HTTP/1.1" 200 -
+219.244.114.127 - - [07/Nov/2014 22:26:56] "GET / HTTP/1.1" 200 -
+219.244.114.127 - - [07/Nov/2014 22:26:57] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:26:57] "GET / HTTP/1.1" 200 -
+115.155.1.118 - - [07/Nov/2014 22:26:58] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:27:00] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:27:00] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.118 - - [07/Nov/2014 22:27:02] "GET / HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:27:04] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.68 - - [07/Nov/2014 22:27:05] "GET / HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:27:05] "GET / HTTP/1.1" 200 -
+119.147.146.195 - - [07/Nov/2014 22:27:06] "GET / HTTP/1.1" 200 -
+219.244.114.127 - - [07/Nov/2014 22:27:06] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:27:10] "GET /user/oldratlee HTTP/1.1" 200 -
+219.245.100.98 - - [07/Nov/2014 22:27:10] "GET /user/oldratlee HTTP/1.1" 200 -
+119.147.146.189 - - [07/Nov/2014 22:27:11] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:27:17] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:27:19] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:27:35] "GET /user/oldratlee HTTP/1.1" 200 -
+219.244.114.127 - - [07/Nov/2014 22:27:35] "GET /user/kelp404 HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:27:35] "GET / HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:27:35] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.124 - - [07/Nov/2014 22:27:35] "GET / HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:27:36] "GET / HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:27:36] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.124 - - [07/Nov/2014 22:27:41] "GET / HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:27:41] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.122 - - [07/Nov/2014 22:27:45] "GET / HTTP/1.1" 200 -
+61.150.43.122 - - [07/Nov/2014 22:27:45] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.124 - - [07/Nov/2014 22:28:02] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:28:02] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.124 - - [07/Nov/2014 22:28:02] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:28:08] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:28:08] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:28:11] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:28:12] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:28:12] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:28:25] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.7 - - [07/Nov/2014 22:28:25] "GET / HTTP/1.1" 200 -
+113.140.29.13 - - [07/Nov/2014 22:28:25] "GET / HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:28:26] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.13 - - [07/Nov/2014 22:28:26] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.121 - - [07/Nov/2014 22:28:37] "GET / HTTP/1.1" 200 -
+61.150.43.121 - - [07/Nov/2014 22:28:38] "GET /favicon.ico HTTP/1.1" 404 -
+219.244.114.127 - - [07/Nov/2014 22:28:41] "GET / HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:28:50] "GET / HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:28:51] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.7 - - [07/Nov/2014 22:28:51] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.31.138 - - [07/Nov/2014 22:29:10] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+61.150.43.121 - - [07/Nov/2014 22:29:10] "GET /user/zavakid HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:29:10] "GET /user/oldratlee HTTP/1.1" 200 -
+219.245.66.155 - - [07/Nov/2014 22:29:12] "GET / HTTP/1.1" 200 -
+61.150.31.138 - - [07/Nov/2014 22:29:12] "GET / HTTP/1.1" 200 -
+219.245.66.155 - - [07/Nov/2014 22:29:13] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.31.138 - - [07/Nov/2014 22:29:13] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:29:25] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:29:45] "GET / HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:29:45] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:29:46] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.4 - - [07/Nov/2014 22:29:46] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.4 - - [07/Nov/2014 22:29:52] "GET /user/oldratlee HTTP/1.1" 200 -
+222.25.189.1 - - [07/Nov/2014 22:30:07] "GET / HTTP/1.1" 200 -
+222.25.189.1 - - [07/Nov/2014 22:30:07] "GET /favicon.ico HTTP/1.1" 404 -
+180.153.163.206 - - [07/Nov/2014 22:30:13] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:30:20] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:30:31] "GET / HTTP/1.1" 200 -
+14.17.18.152 - - [07/Nov/2014 22:30:45] "GET / HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:30:45] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:30:46] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:30:46] "GET / HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:30:47] "GET / HTTP/1.1" 200 -
+222.25.189.1 - - [07/Nov/2014 22:30:47] "GET /user/oldratlee HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:30:57] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.9 - - [07/Nov/2014 22:30:57] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.9 - - [07/Nov/2014 22:30:57] "GET / HTTP/1.1" 200 -
+222.25.189.1 - - [07/Nov/2014 22:30:57] "GET /favicon.ico HTTP/1.1" 404 -
+210.27.10.59 - - [07/Nov/2014 22:30:57] "GET / HTTP/1.1" 200 -
+115.155.1.124 - - [07/Nov/2014 22:30:58] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.124 - - [07/Nov/2014 22:30:58] "GET / HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:30:58] "GET / HTTP/1.1" 200 -
+115.155.1.124 - - [07/Nov/2014 22:30:59] "GET / HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:31:06] "GET / HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:31:07] "GET /user/agentzh HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:31:47] "GET / HTTP/1.1" 200 -
+115.155.1.123 - - [07/Nov/2014 22:32:05] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [07/Nov/2014 22:32:06] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:32:06] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:32:07] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.66.122 - - [07/Nov/2014 22:32:07] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+115.155.1.123 - - [07/Nov/2014 22:32:14] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.8 - - [07/Nov/2014 22:32:14] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.4 - - [07/Nov/2014 22:32:14] "GET / HTTP/1.1" 200 -
+115.155.1.123 - - [07/Nov/2014 22:32:14] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:32:16] "GET / HTTP/1.1" 200 -
+113.140.29.8 - - [07/Nov/2014 22:32:28] "GET / HTTP/1.1" 200 -
+115.155.1.123 - - [07/Nov/2014 22:32:28] "GET /user/xumingming HTTP/1.1" 200 -
+113.140.29.8 - - [07/Nov/2014 22:32:29] "GET /favicon.ico HTTP/1.1" 404 -
+219.244.114.127 - - [07/Nov/2014 22:32:35] "GET /user/questbeat HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:32:40] "GET /user/jackfranklin HTTP/1.1" 200 -
+113.140.29.2 - - [07/Nov/2014 22:33:16] "GET / HTTP/1.1" 200 -
+113.140.29.4 - - [07/Nov/2014 22:33:16] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 22:33:17] "GET / HTTP/1.1" 200 -
+113.140.29.8 - - [07/Nov/2014 22:33:17] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.70 - - [07/Nov/2014 22:33:17] "GET / HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 22:33:18] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.12 - - [07/Nov/2014 22:33:18] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.12 - - [07/Nov/2014 22:33:18] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.70 - - [07/Nov/2014 22:33:24] "GET /favicon.ico HTTP/1.1" 404 -
+123.151.12.154 - - [07/Nov/2014 22:33:24] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:33:29] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:33:34] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.70 - - [07/Nov/2014 22:33:34] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:33:35] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:33:35] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.69 - - [07/Nov/2014 22:33:35] "GET / HTTP/1.1" 200 -
+61.150.43.69 - - [07/Nov/2014 22:33:36] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:33:37] "GET /user/oldratlee HTTP/1.1" 200 -
+113.140.29.9 - - [07/Nov/2014 22:33:48] "GET / HTTP/1.1" 200 -
+113.140.29.9 - - [07/Nov/2014 22:33:49] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.9 - - [07/Nov/2014 22:33:56] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:33:57] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [07/Nov/2014 22:34:27] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [07/Nov/2014 22:34:28] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.7 - - [07/Nov/2014 22:34:28] "GET / HTTP/1.1" 200 -
+61.150.43.121 - - [07/Nov/2014 22:34:28] "GET / HTTP/1.1" 200 -
+61.150.43.121 - - [07/Nov/2014 22:34:28] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.121 - - [07/Nov/2014 22:34:29] "GET / HTTP/1.1" 200 -
+219.245.66.122 - - [07/Nov/2014 22:34:33] "GET / HTTP/1.1" 200 -
+113.140.29.7 - - [07/Nov/2014 22:34:44] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.121 - - [07/Nov/2014 22:34:44] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:34:44] "GET / HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:34:45] "GET /favicon.ico HTTP/1.1" 404 -
+119.147.146.195 - - [07/Nov/2014 22:34:45] "GET / HTTP/1.1" 200 -
+106.44.193.51 - - [07/Nov/2014 22:34:45] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:34:45] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:34:46] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.8 - - [07/Nov/2014 22:34:46] "GET /user/oldratlee HTTP/1.1" 200 -
+113.140.29.13 - - [07/Nov/2014 22:35:06] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:35:07] "GET /user/Hawstein HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:35:07] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:35:09] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:35:10] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:35:12] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.92.102 - - [07/Nov/2014 22:35:12] "GET / HTTP/1.1" 200 -
+219.245.92.102 - - [07/Nov/2014 22:35:15] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:35:15] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.92.102 - - [07/Nov/2014 22:35:27] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.124 - - [07/Nov/2014 22:35:27] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.124 - - [07/Nov/2014 22:35:27] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.2 - - [07/Nov/2014 22:35:27] "GET /user/oldratlee HTTP/1.1" 200 -
+113.140.29.13 - - [07/Nov/2014 22:35:27] "GET /user/oldratlee HTTP/1.1" 200 -
+115.155.1.123 - - [07/Nov/2014 22:35:29] "GET / HTTP/1.1" 200 -
+219.245.92.102 - - [07/Nov/2014 22:35:30] "GET /user/oldratlee HTTP/1.1" 200 -
+115.155.1.123 - - [07/Nov/2014 22:35:30] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:35:36] "GET /user/particle128 HTTP/1.1" 200 -
+115.155.1.123 - - [07/Nov/2014 22:35:36] "GET /user/oldratlee HTTP/1.1" 200 -
+115.155.1.123 - - [07/Nov/2014 22:35:52] "GET /user/oldratlee HTTP/1.1" 200 -
+113.140.29.7 - - [07/Nov/2014 22:36:19] "GET / HTTP/1.1" 200 -
+115.155.1.121 - - [07/Nov/2014 22:36:28] "GET / HTTP/1.1" 200 -
+61.150.43.122 - - [07/Nov/2014 22:36:29] "GET / HTTP/1.1" 200 -
+115.155.1.121 - - [07/Nov/2014 22:36:29] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.121 - - [07/Nov/2014 22:36:29] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.122 - - [07/Nov/2014 22:36:29] "GET /favicon.ico HTTP/1.1" 404 -
+210.27.10.59 - - [07/Nov/2014 22:36:31] "GET / HTTP/1.1" 200 -
+210.27.10.59 - - [07/Nov/2014 22:36:32] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.122 - - [07/Nov/2014 22:36:45] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.122 - - [07/Nov/2014 22:36:45] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.119 - - [07/Nov/2014 22:37:07] "GET / HTTP/1.1" 200 -
+115.155.1.119 - - [07/Nov/2014 22:37:08] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.119 - - [07/Nov/2014 22:37:17] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:37:27] "GET /user/windix HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:37:41] "GET / HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:37:42] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.11 - - [07/Nov/2014 22:37:52] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:40:41] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.7 - - [07/Nov/2014 22:41:42] "GET /user/zhusee2 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.11 - - [07/Nov/2014 22:41:42] "GET /user/jeresig HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+111.206.36.145 - - [07/Nov/2014 22:41:42] "GET /user/zhusee2 HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:41:42] "GET /user/stassa HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+115.155.1.123 - - [07/Nov/2014 22:41:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+61.150.43.122 - - [07/Nov/2014 22:41:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+61.150.43.124 - - [07/Nov/2014 22:41:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:41:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:41:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:41:44] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:41:44] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:41:44] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.11 - - [07/Nov/2014 22:41:44] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+113.140.29.5 - - [07/Nov/2014 22:41:44] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.5 - - [07/Nov/2014 22:41:45] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+112.64.235.253 - - [07/Nov/2014 22:41:45] "GET /user/agentzh HTTP/1.1" 200 -
+123.138.79.8 - - [07/Nov/2014 22:41:45] "GET / HTTP/1.1" 200 -
+219.245.66.122 - - [07/Nov/2014 22:41:45] "GET / HTTP/1.1" 200 -
+113.200.205.104 - - [07/Nov/2014 22:41:45] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+183.157.160.57 - - [07/Nov/2014 22:41:46] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+219.245.66.122 - - [07/Nov/2014 22:41:46] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:41:47] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+219.245.66.122 - - [07/Nov/2014 22:41:47] "GET /user/duminhui HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:41:47] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+113.200.205.104 - - [07/Nov/2014 22:41:47] "GET / HTTP/1.1" 200 -
+183.157.160.57 - - [07/Nov/2014 22:41:55] "GET / HTTP/1.1" 200 -
+113.140.29.10 - - [07/Nov/2014 22:41:55] "GET / HTTP/1.1" 200 -
+113.140.29.5 - - [07/Nov/2014 22:41:56] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [07/Nov/2014 22:41:56] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:41:57] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:41:57] "GET / HTTP/1.1" 200 -
+61.150.43.70 - - [07/Nov/2014 22:41:58] "GET / HTTP/1.1" 200 -
+113.140.29.13 - - [07/Nov/2014 22:41:58] "GET / HTTP/1.1" 200 -
+183.157.160.57 - - [07/Nov/2014 22:41:58] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.10 - - [07/Nov/2014 22:41:58] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.70 - - [07/Nov/2014 22:41:59] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.13 - - [07/Nov/2014 22:41:59] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:42:06] "GET / HTTP/1.1" 200 -
+61.150.43.70 - - [07/Nov/2014 22:42:22] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:42:34] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:42:38] "GET / HTTP/1.1" 200 -
+113.140.29.13 - - [07/Nov/2014 22:42:39] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:42:48] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:42:51] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:42:53] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:43:10] "GET / HTTP/1.1" 200 -
+107.178.200.202 - - [07/Nov/2014 22:43:44] "GET / HTTP/1.1" 200 -
+107.178.200.196 - - [07/Nov/2014 22:43:48] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.105.189 - - [07/Nov/2014 22:43:48] "GET / HTTP/1.1" 200 -
+219.245.105.189 - - [07/Nov/2014 22:43:49] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.7 - - [07/Nov/2014 22:44:02] "GET /user/sindresorhus HTTP/1.1" 200 -
+113.140.29.7 - - [07/Nov/2014 22:44:02] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.2 - - [07/Nov/2014 22:44:37] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:44:38] "GET / HTTP/1.1" 200 -
+113.140.29.10 - - [07/Nov/2014 22:44:57] "GET /user/oldratlee HTTP/1.1" 200 -
+113.140.29.10 - - [07/Nov/2014 22:44:57] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.12 - - [07/Nov/2014 22:45:00] "GET / HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 22:45:01] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.12 - - [07/Nov/2014 22:45:11] "GET /user/agentzh HTTP/1.1" 200 -
+219.245.92.63 - - [07/Nov/2014 22:45:13] "GET / HTTP/1.1" 200 -
+219.245.92.63 - - [07/Nov/2014 22:45:14] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.12 - - [07/Nov/2014 22:45:14] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.92.98 - - [07/Nov/2014 22:45:16] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.92.98 - - [07/Nov/2014 22:45:16] "GET / HTTP/1.1" 200 -
+219.245.92.98 - - [07/Nov/2014 22:45:16] "GET / HTTP/1.1" 200 -
+115.155.1.121 - - [07/Nov/2014 22:45:30] "GET / HTTP/1.1" 200 -
+115.155.1.121 - - [07/Nov/2014 22:45:31] "GET /favicon.ico HTTP/1.1" 404 -
+222.25.140.250 - - [07/Nov/2014 22:45:35] "GET / HTTP/1.1" 200 -
+222.25.140.250 - - [07/Nov/2014 22:45:36] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.105.189 - - [07/Nov/2014 22:45:49] "GET /user/oldratlee HTTP/1.1" 200 -
+219.245.105.189 - - [07/Nov/2014 22:45:49] "GET /favicon.ico HTTP/1.1" 404 -
+117.136.25.100 - - [07/Nov/2014 22:46:01] "GET / HTTP/1.1" 200 -
+120.90.223.78 - - [07/Nov/2014 22:46:16] "GET / HTTP/1.1" 200 -
+112.90.78.25 - - [07/Nov/2014 22:46:17] "GET /user/jferris HTTP/1.1" 200 -
+117.136.25.100 - - [07/Nov/2014 22:46:18] "GET /user/jferris HTTP/1.1" 200 -
+115.155.1.121 - - [07/Nov/2014 22:46:45] "GET / HTTP/1.1" 200 -
+61.150.43.67 - - [07/Nov/2014 22:46:45] "GET / HTTP/1.1" 200 -
+219.245.100.172 - - [07/Nov/2014 22:46:45] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:46:46] "GET / HTTP/1.1" 200 -
+113.140.29.7 - - [07/Nov/2014 22:46:47] "GET / HTTP/1.1" 200 -
+113.140.29.6 - - [07/Nov/2014 22:46:47] "GET / HTTP/1.1" 200 -
+113.140.29.6 - - [07/Nov/2014 22:46:50] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.121 - - [07/Nov/2014 22:46:50] "GET / HTTP/1.1" 200 -
+61.150.43.67 - - [07/Nov/2014 22:46:53] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.100.172 - - [07/Nov/2014 22:46:53] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.11 - - [07/Nov/2014 22:46:53] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.7 - - [07/Nov/2014 22:46:53] "GET /favicon.ico HTTP/1.1" 404 -
+219.245.100.172 - - [07/Nov/2014 22:46:53] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.67 - - [07/Nov/2014 22:46:55] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.67 - - [07/Nov/2014 22:46:55] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.6 - - [07/Nov/2014 22:47:01] "GET /user/YanchiHuang HTTP/1.1" 200 -
+183.157.160.57 - - [07/Nov/2014 22:47:02] "GET /user/oldratlee HTTP/1.1" 200 -
+120.90.223.78 - - [07/Nov/2014 22:47:16] "GET / HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:47:21] "GET / HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:47:22] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.9 - - [07/Nov/2014 22:47:22] "GET / HTTP/1.1" 200 -
+113.140.29.2 - - [07/Nov/2014 22:47:25] "GET / HTTP/1.1" 200 -
+113.140.29.2 - - [07/Nov/2014 22:47:26] "GET /favicon.ico HTTP/1.1" 404 -
+180.153.161.55 - - [07/Nov/2014 22:47:29] "GET / HTTP/1.1" 200 -
+120.90.223.78 - - [07/Nov/2014 22:47:34] "GET / HTTP/1.1" 200 -
+113.140.29.2 - - [07/Nov/2014 22:47:44] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:47:44] "GET /user/douglascrockford HTTP/1.1" 200 -
+120.90.223.78 - - [07/Nov/2014 22:47:45] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:47:52] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [07/Nov/2014 22:48:19] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [07/Nov/2014 22:48:22] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:48:32] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [07/Nov/2014 22:48:52] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:49:01] "GET / HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:49:02] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.121 - - [07/Nov/2014 22:49:04] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.121 - - [07/Nov/2014 22:49:05] "GET / HTTP/1.1" 200 -
+61.150.43.121 - - [07/Nov/2014 22:49:05] "GET / HTTP/1.1" 200 -
+115.155.1.121 - - [07/Nov/2014 22:49:09] "GET / HTTP/1.1" 200 -
+219.245.65.144 - - [07/Nov/2014 22:49:11] "GET / HTTP/1.1" 200 -
+219.245.65.144 - - [07/Nov/2014 22:49:12] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.121 - - [07/Nov/2014 22:49:12] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.7 - - [07/Nov/2014 22:49:22] "GET / HTTP/1.1" 200 -
+61.150.43.121 - - [07/Nov/2014 22:49:22] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:49:31] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:49:32] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.7 - - [07/Nov/2014 22:49:41] "GET /user/zonble HTTP/1.1" 200 -
+115.155.1.121 - - [07/Nov/2014 22:49:54] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 22:49:57] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.12 - - [07/Nov/2014 22:49:57] "GET / HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 22:49:57] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:49:59] "GET / HTTP/1.1" 200 -
+115.155.1.118 - - [07/Nov/2014 22:50:17] "GET / HTTP/1.1" 200 -
+115.155.1.118 - - [07/Nov/2014 22:50:19] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.12 - - [07/Nov/2014 22:50:19] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:50:20] "GET / HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:50:22] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.9 - - [07/Nov/2014 22:50:33] "GET /user/oldratlee HTTP/1.1" 200 -
+115.155.1.122 - - [07/Nov/2014 22:50:49] "GET / HTTP/1.1" 200 -
+115.155.1.122 - - [07/Nov/2014 22:50:50] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.122 - - [07/Nov/2014 22:51:08] "GET /user/oldratlee HTTP/1.1" 200 -
+115.155.1.122 - - [07/Nov/2014 22:51:08] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.2 - - [07/Nov/2014 22:51:54] "GET / HTTP/1.1" 200 -
+113.140.29.2 - - [07/Nov/2014 22:51:54] "GET /favicon.ico HTTP/1.1" 404 -
+113.140.29.2 - - [07/Nov/2014 22:52:09] "GET /user/oldratlee HTTP/1.1" 200 -
+222.25.149.249 - - [07/Nov/2014 22:52:11] "GET / HTTP/1.1" 200 -
+222.25.149.249 - - [07/Nov/2014 22:52:11] "GET /favicon.ico HTTP/1.1" 404 -
+222.25.149.249 - - [07/Nov/2014 22:52:13] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:54:42] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.11 - - [07/Nov/2014 22:54:42] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 22:54:43] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:54:43] "GET / HTTP/1.1" 200 -
+115.155.1.122 - - [07/Nov/2014 22:54:44] "GET / HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:54:45] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.10 - - [07/Nov/2014 22:54:45] "GET / HTTP/1.1" 200 -
+123.138.79.9 - - [07/Nov/2014 22:54:46] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception happened during processing of request from ('61.150.31.138', 2133)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('219.245.66.122', 14765)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.7', 7217)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.11', 54509)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.7', 7482)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('115.155.1.123', 54952)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('61.150.43.122', 33851)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('61.150.43.124', 3805)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 16081)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 16082)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 16252)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 16318)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 16391)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.11', 1943)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('113.140.29.5', 38428)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('113.200.205.104', 49147)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('183.157.160.57', 3495)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('219.245.66.122', 15017)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 17529)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 17560)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 17965)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 23748)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 25686)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.10', 25975)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.138.79.9', 3172)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('123.13Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+123.138.79.7 - - [07/Nov/2014 22:54:46] "GET / HTTP/1.1" 200 -
+113.140.29.7 - - [07/Nov/2014 22:54:47] "GET /user/dexteryy HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 22:54:47] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.122 - - [07/Nov/2014 22:54:47] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.10 - - [07/Nov/2014 22:54:47] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.7 - - [07/Nov/2014 22:54:48] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.121 - - [07/Nov/2014 22:55:18] "GET / HTTP/1.1" 200 -
+61.150.43.121 - - [07/Nov/2014 22:55:20] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.7 - - [07/Nov/2014 22:55:42] "GET /user/oldratlee HTTP/1.1" 200 -
+115.155.1.120 - - [07/Nov/2014 22:56:12] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.120 - - [07/Nov/2014 22:56:12] "GET / HTTP/1.1" 200 -
+101.226.33.224 - - [07/Nov/2014 22:56:30] "GET /user/douglascrockford HTTP/1.1" 200 -
+115.155.1.120 - - [07/Nov/2014 22:56:31] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.68 - - [07/Nov/2014 22:56:48] "GET / HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:56:49] "GET / HTTP/1.1" 200 -
+61.150.43.68 - - [07/Nov/2014 22:56:50] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.68 - - [07/Nov/2014 22:56:59] "GET /user/oldratlee HTTP/1.1" 200 -
+113.140.29.13 - - [07/Nov/2014 22:57:03] "GET / HTTP/1.1" 200 -
+115.155.1.120 - - [07/Nov/2014 22:57:04] "GET /user/oldratlee HTTP/1.1" 200 -
+113.140.29.13 - - [07/Nov/2014 22:57:45] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.122 - - [07/Nov/2014 22:57:45] "GET /user/oldratlee HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+113.140.29.13 - - [07/Nov/2014 22:57:45] "GET /user/oldratlee HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 22:57:45] "GET / HTTP/1.1" 200 -
+115.155.1.122 - - [07/Nov/2014 22:57:49] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.123 - - [07/Nov/2014 22:59:21] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+113.140.29.3 - - [07/Nov/2014 22:59:21] "GET / HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:5000/
+123.138.79.10 - - [07/Nov/2014 23:06:30] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 23:06:32] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 23:06:36] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 23:06:40] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [07/Nov/2014 23:06:43] "GET / HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:5000/
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 10, in <module>
+    app.run(host='0.0.0.0')
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 772, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 710, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 692, in inner
+    passthrough_errors, ssl_context).serve_forever()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 486, in make_server
+    passthrough_errors, ssl_context)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 410, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+ * Running on http://0.0.0.0:5000/
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 10, in <module>
+    app.run(host='0.0.0.0')
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 772, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 710, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 692, in inner
+    passthrough_errors, ssl_context).serve_forever()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 486, in make_server
+    passthrough_errors, ssl_context)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 410, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+ * Running on http://0.0.0.0:5000/
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 10, in <module>
+    app.run(host='0.0.0.0')
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 772, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 710, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 692, in inner
+    passthrough_errors, ssl_context).serve_forever()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 486, in make_server
+    passthrough_errors, ssl_context)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 410, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+ * Running on http://0.0.0.0:5000/
+Traceback (most recent call last):
+  File "/home/lintong/Flask/github/github.py", line 10, in <module>
+    app.run(host='0.0.0.0')
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 772, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 710, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 692, in inner
+    passthrough_errors, ssl_context).serve_forever()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 486, in make_server
+    passthrough_errors, ssl_context)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 410, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+ * Running on http://0.0.0.0:5000/
+123.138.79.10 - - [07/Nov/2014 23:16:26] "GET / HTTP/1.1" 200 -
+112.65.193.16 - - [07/Nov/2014 23:17:02] "GET / HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 23:17:02] "GET / HTTP/1.1" 200 -
+112.64.235.249 - - [07/Nov/2014 23:17:02] "GET / HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 23:17:21] "GET /user/tg123 HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 23:18:27] "GET / HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 23:18:35] "GET /user/billy3321 HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 23:18:49] "GET / HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 23:18:49] "GET /user/muan HTTP/1.1" 200 -
+123.138.79.12 - - [07/Nov/2014 23:18:49] "GET /user/dabeaz HTTP/1.1" 200 -
+123.138.79.7 - - [07/Nov/2014 23:18:52] "GET /user/tg123 HTTP/1.1" 200 -
+113.140.29.9 - - [07/Nov/2014 23:22:09] "GET / HTTP/1.1" 200 -
+113.140.29.9 - - [07/Nov/2014 23:22:28] "GET /user/tg123 HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 23:22:37] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 23:22:38] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.11 - - [07/Nov/2014 23:22:42] "GET /user/hellolintong HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 23:22:50] "GET /user/dabeaz HTTP/1.1" 200 -
+113.140.29.13 - - [07/Nov/2014 23:23:06] "GET / HTTP/1.1" 200 -
+180.153.211.190 - - [07/Nov/2014 23:24:30] "GET /user/tg123 HTTP/1.1" 200 -
+115.155.1.123 - - [07/Nov/2014 23:26:32] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.117 - - [07/Nov/2014 23:31:21] "GET / HTTP/1.1" 200 -
+115.155.1.117 - - [07/Nov/2014 23:31:22] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.117 - - [07/Nov/2014 23:31:22] "GET /favicon.ico HTTP/1.1" 404 -
+115.155.1.117 - - [07/Nov/2014 23:31:27] "GET /user/tg123 HTTP/1.1" 200 -
+61.134.20.114 - - [07/Nov/2014 23:33:12] "GET / HTTP/1.1" 200 -
+61.134.20.114 - - [07/Nov/2014 23:33:45] "GET /user/tg123 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+61.134.20.114 - - [07/Nov/2014 23:33:45] "GET /user/tg123 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+113.140.29.10 - - [07/Nov/2014 23:44:31] "GET / HTTP/1.1" 200 -
+113.140.29.10 - - [07/Nov/2014 23:44:31] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.7 - - [07/Nov/2014 23:51:25] "GET / HTTP/1.1" 200 -
+123.138.79.11 - - [07/Nov/2014 23:56:46] "GET / HTTP/1.1" 200 -
+61.185.177.127 - - [08/Nov/2014 00:06:29] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [08/Nov/2014 00:16:36] "GET / HTTP/1.1" 200 -
+123.138.79.8 - - [08/Nov/2014 00:16:38] "GET /favicon.ico HTTP/1.1" 404 -
+123.138.79.8 - - [08/Nov/2014 00:16:43] "GET /user/tg123 HTTP/1.1" 200 -
+113.102.135.172 - - [08/Nov/2014 00:19:22] "GET / HTTP/1.1" 200 -
+113.102.135.172 - - [08/Nov/2014 00:19:23] "GET /favicon.ico HTTP/1.1" 404 -
+113.102.135.172 - - [08/Nov/2014 00:19:30] "GET /user/tg123 HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 00:19:59] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 00:19:59] "GET /favicon.ico HTTP/1.1" 404 -
+111.20.100.238 - - [08/Nov/2014 00:42:31] "GET / HTTP/1.1" 200 -
+111.20.100.238 - - [08/Nov/2014 00:42:32] "GET /favicon.ico HTTP/1.1" 404 -
+111.20.100.238 - - [08/Nov/2014 00:42:37] "GET /user/tg123 HTTP/1.1" 200 -
+111.20.100.238 - - [08/Nov/2014 00:42:42] "GET / HTTP/1.1" 200 -
+61.150.43.67 - - [08/Nov/2014 00:43:11] "GET / HTTP/1.1" 200 -
+61.150.43.67 - - [08/Nov/2014 00:43:11] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.67 - - [08/Nov/2014 00:43:26] "GET /user/tg123 HTTP/1.1" 200 -
+61.150.43.67 - - [08/Nov/2014 00:43:26] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.67 - - [08/Nov/2014 00:43:26] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.67 - - [08/Nov/2014 00:59:03] "GET / HTTP/1.1" 200 -
+61.150.43.67 - - [08/Nov/2014 00:59:03] "GET /favicon.ico HTTP/1.1" 404 -
+61.150.43.67 - - [08/Nov/2014 00:59:10] "GET /user/oldratlee HTTP/1.1" 200 -
+61.150.43.67 - - [08/Nov/2014 00:59:11] "GET /favicon.ico HTTP/1.1" 404 -
+104.32.173.122 - - [08/Nov/2014 01:09:38] "GET / HTTP/1.1" 200 -
+64.131.99.157 - - [08/Nov/2014 03:20:32] "GET / HTTP/1.1" 200 -
+64.131.99.157 - - [08/Nov/2014 03:20:51] "GET /user/tg123 HTTP/1.1" 200 -
+14.17.34.190 - - [08/Nov/2014 03:20:51] "GET /user/tg123 HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 08:41:12] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 08:41:12] "GET /favicon.ico HTTP/1.1" 404 -
+113.200.204.109 - - [08/Nov/2014 08:42:43] "GET / HTTP/1.1" 200 -
+113.200.204.109 - - [08/Nov/2014 08:42:50] "GET /user/tg123 HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:5000/
+123.138.79.10 - - [08/Nov/2014 10:05:08] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:10] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:14] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:19] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:28] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:32] "GET /user/hellolintong HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:40] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:48] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:51] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:05:53] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:07] "GET /user/leo-ma HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:18] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:20] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:22] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:24] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:26] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:44] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:46] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:48] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:50] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:06:52] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:09:57] "GET /user/hellolintong HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:09:59] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:10:07] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:10:42] "GET /user/daoluan HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:10:49] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:10:52] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:10:54] "GET / HTTP/1.1" 200 -
+123.138.79.10 - - [08/Nov/2014 10:10:55] "GET / HTTP/1.1" 200 -
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
+python: can't open file '/home/lintong/Flask/github/github.py': [Errno 2] No such file or directory
